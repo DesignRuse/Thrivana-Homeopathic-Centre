@@ -1,0 +1,217 @@
+/* Extra Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+}
+
+
+/* Large Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+
+/* Medium Devices (Portrait Tablets & Small Desktops) */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+
+/* Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media only screen and (max-width: 575px) {
+    #contactDetails div:not(:last-of-type) {
+        margin-bottom: 15px;
+    }
+    #contactDetails div .btn {
+        float: left;
+    }
+    #logoAndNavWrapper {
+        padding: 30px 0 27px 0;
+    }
+    #logoAndNavWrapper #logo {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        margin-top: -2px;
+    }
+    #logo i {
+        font-size: 21px;
+    }
+    #navigation #navigationToggler {
+        display: block;
+    }
+    #navigation ul {
+        display: none;
+    }    
+    #navigation ul li {
+        display: block;
+    }
+    #navigation ul li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 0.469em;
+    }
+    #contactSection #contactForm {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .cell {
+        font-size: 14px;
+    }
+    .about p {
+        line-height: 30px;
+        padding-left: 0;
+        margin-top: 15px;
+    }
+    #callToActionSection {
+        padding: 21px 0 50px 0;
+    }
+    #introduction h1 {
+	    font-size: 24px;
+        line-height: 1.4;
+        text-align: center;
+    }
+    #introduction p {
+        text-align: center;
+    }
+    #appointmentWrapper #appointment {
+        width: 100%;
+        height: auto;
+        top: 51px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #appointment #titleImage {
+        font-size: 70px;
+        font-weight: 800;
+        margin-top: -79px;
+    }
+    .service:first-of-type {
+        padding: 0;
+    }
+
+    .service:last-of-type {
+        padding: 0;
+    }
+    #footer h2 {
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+}
+
+@media(min-width:320px) and (max-width:479px) {
+    #contactDetails div:not(:last-of-type) {
+        margin-bottom: 15px;
+    }
+    #contactDetails div .btn {
+        float: left;
+    }
+    #logoAndNavWrapper {
+        padding: 30px 0 27px 0;
+    }
+    #logoAndNavWrapper #logo {
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        margin-top: -2px;
+    }
+    #logo i {
+        font-size: 21px;
+    }
+    #navigation #navigationToggler {
+        display: block;
+        margin: -8px 0 0 0;
+    }
+    #navigation ul {
+        display: none;
+    }    
+    #navigation ul li {
+        display: block;
+    }
+    #navigation ul li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 0.469em;
+    }
+    #contactSection #contactForm {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .cell {
+        font-size: 14px;
+    }
+    .about p {
+        line-height: 30px;
+        padding-left: 0;
+        margin-top: 15px;
+    }
+    #callToActionSection {
+        background-size: cover;
+        padding: 21px 0 50px 0;
+    }
+    #introduction h1 {
+	    font-size: 24px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #introduction p {
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+    }    
+    #introduction div {           /*---------------------------------------------------*/
+        display: none;            /*----- Code To Hide 'View Our Services' Button -----*/
+    }                             /*---------------------------------------------------*/
+    #appointmentWrapper #appointment {
+        width: 100%;
+        height: auto;
+        top: 0.703em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #appointment #titleImage {
+        font-size: 60px;
+        font-weight: 800;
+        margin-top: -72px;
+    }
+    #appointment form {
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+    }
+    #appointment form h2 {
+        color: #54c494;
+        font-size: 1.758em;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    #appointment form .btn {
+        width: 100%;
+        height: auto;
+        font-size: 10px;
+    }
+    .service:first-of-type {
+        padding-right: 0;
+    }
+
+    .service:last-of-type {
+        padding-left: 0;
+    }
+    #footer h2 {
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,690 @@
+/*-----------------------------------------------------*/
+/*------------------- ALL -----------------------------*/
+/*-----------------------------------------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*-----------------------------------------------------*/
+/*------------------- ALL -----------------------------*/
+/*-----------------------------------------------------*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #7c8d9b;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+	scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+}
+
+h4, h5 {
+    font-weight: 500;
+}
+
+/*-----------------------------------------------------*/
+/*------------------- BUTTON --------------------------*/
+/*-----------------------------------------------------*/
+
+.btn,
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+    font-weight: 500;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+    letter-spacing: 2px;
+	background-color: #54c494;
+    color: #fffffc;
+	padding: 10px 15px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	transition: color 0.2s linear, background 0.2s linear, border-color 0.2s linear, text-shadow 0.2s linear;
+}
+
+.btn:hover,
+.btn:active {
+	background-color: #47a67e;
+}
+
+.submitBtn {
+	width: 100%;
+}
+
+/*-----------------------------------------------------*/
+/*------------------- BUTTON --------------------------*/
+/*-----------------------------------------------------*/
+
+
+/*-----------------------------------------------------*/
+/*------------------- SECTION HEADING -----------------*/
+/*-----------------------------------------------------*/
+
+.sectionHeading {
+    display: table;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.sectionHeading h1 {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    color: #485a68;
+    text-align: center;
+}
+
+/*-----------------------------------------------------*/
+/*------------------- SECTION HEADING -----------------*/
+/*-----------------------------------------------------*/
+
+
+/*-----------------------------------------------------*/
+/*------------------- SECTION INTRODUCTION ------------*/
+/*-----------------------------------------------------*/
+
+.intro {
+    margin-top: 30px;
+}
+
+/*-----------------------------------------------------*/
+/*------------------- SECTION INTRODUCTION ------------*/
+/*-----------------------------------------------------*/
+
+
+#contactDetails {
+	padding: 20px 0;
+}
+
+#contactDetails div {
+	line-height: 1;
+	word-wrap: break-word;
+}
+
+#contactDetails div i {
+	display: inline-block;
+	vertical-align: top;
+	color: #54c494;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#contactDetails div span {
+	display: inline-block;
+    color: #485a68;
+	padding-top: 4px;
+}
+
+#contactDetails div strong {
+	display: block;
+	margin-top: 8px;
+}
+
+#contactDetails div .btn {
+	float: right;
+}
+
+#logoAndNavWrapper {
+	width: 100%;
+	background-color: #54c494;
+	color: #fffffc;
+	padding: 30px 0 10px 0;
+    position: relative;
+}
+
+#logoAndNavWrapper #logo {
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+    font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	margin-top: -2px;
+}
+
+#logo i {
+	font-size: 24px;
+}
+
+#logoAndNavWrapper #navigation {
+	float: right;
+	text-align: right;
+}
+
+#navigation #navigationToggler {
+	display: none;
+    color: #ffffff;
+    font-size: 24px;
+    margin: -8px 0 0 0;
+    cursor: pointer;
+	transition: color 0.2s linear, background 0.2s linear, border-color 0.2s linear, text-shadow 0.2s linear;
+}
+
+#navigationToggler:hover {
+	color: #47a67e;
+}
+
+#navigation ul li {
+	display: inline-block;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+#navigation ul li:not(:last-child) {
+	margin-right: 40px;
+}
+
+#navigation ul li a:link,
+#navigation ul li a:visited {
+	color: #ffffff;
+    text-decoration: none;
+    outline: 0;
+	cursor: pointer;
+	transition: color 0.2s linear, background 0.2s linear, border-color 0.2s linear, text-shadow 0.2s linear;
+}
+
+#navigation ul li a:hover,
+#navigation ul li a:active {
+	color: #d4eee3;
+}
+
+#contactSection {
+    background-color: #f4fcfc;
+	padding: 30px 0 60px 0;
+    display: none;
+}
+
+#contactSection .sectionHeading h1 {
+    color: #485a68;
+}
+
+#contactSection #contactBody {
+    margin-top: 45px;
+}
+
+#contactBody h2 {
+    font-weight: 500;
+}
+
+#contactBody p {
+    line-height: 2.15em;
+    white-space: pre-line;
+}
+
+.tablewrapper {
+	position: relative;
+}
+
+.table {
+	display: table;
+}
+
+.row {
+	display: table-row;
+}
+
+.cell {
+	display: table-cell;
+	padding: 0.4em 0;
+}
+
+.cell span {
+	font-weight: 500;
+}
+
+.cell.empty {
+	border: none;
+	width: 100px;
+}
+
+.cell.rowspanned {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100px;
+}
+
+#contactSection #contactForm {
+	width: 95%;
+	height: auto;
+    float: right;
+}
+
+.formElements #name,
+.formElements #email,
+.formElements #message {
+	width: 100%;
+    background-color: #ffffff;
+	color: #020020;
+    padding: 0.469em;
+	border: 1px solid rgba(124, 141, 155, 0.4);
+	border-radius: 0.234em;
+	-webkit-box-shadow: 1px 1px rgba(212, 238, 227, 0.6);
+	box-shadow: 1px 1px rgba(212, 238, 227, 0.6);
+}
+
+.formElements #name,
+.formElements #email {
+	height: auto;
+}
+
+.formElements #message {
+	height: 120px;
+}
+
+.formElements #email,
+.formElements #message {
+	margin-top: 15px;
+}
+
+#contactForm input[type=submit] {
+    width: 100%;
+    height: auto;
+    margin-top: 7px;
+}
+
+#aboutSection {
+    background-color: #f4fcfc;
+    padding: 30px 0 60px 0;
+    display: none;
+}
+
+#aboutSection .intro:first-of-type {
+    margin-top: 1.641em;
+}
+
+#aboutSection .about {
+	width: 100%;
+	height: auto;
+    margin-top: 15px;
+}
+
+.about img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.about h2 {
+    color: #485a68;
+	padding-left: 30px;
+}
+
+.about p {
+    line-height: 30px;
+	padding-left: 30px;
+	margin-top: 15px;
+}
+
+#callToActionSection {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 196, 148, 0.2)), to(rgba(84, 196, 148, 0.2))), url('../images/heroImage.jpg');
+	background-color: #ffffff;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 70px 0 50px 0;
+}
+
+#callToActionSection #introduction {
+	color: #fffffc;
+}
+
+#introduction h1 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+    line-height: 43px;
+	margin-bottom: 20px;
+}
+
+#introduction p {
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+#callToActionSection #appointmentWrapper {
+	position: relative;
+}
+
+#appointmentWrapper #appointment {
+	width: 70%;
+	height: auto;
+	background-color: rgba(255, 255, 255, 0.92);
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+	padding: 20px;
+	border-radius: 5px;
+	position: absolute;
+	right: 0;
+}
+
+#appointment #titleImage {
+	color: #54c494;
+	font-size: 100px;
+	text-align: center;
+	margin-top: -107px;
+}
+
+#appointment form {
+	width: 100%;
+	height: auto;
+}
+
+#appointment form h2 {
+	color: #54c494;
+	font-size: 32px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#appointment form .btn {
+	width: 100%;
+	height: auto;
+}
+
+#benefitsSection {
+	padding-top: 30px;
+}
+
+#benefitsSection .sectionHeading h1 {
+	text-align: center;
+}
+
+#benefitsSection .intro {
+	text-align: center;
+}
+
+#benefitsSection .benefit {
+	text-align: center;
+	width: 100%;
+	height: auto;
+    margin-top: 15px;
+}
+
+.benefit .benefitIcon {
+	width: 150px;
+	height: 150px;
+	color: #54c494;
+	font-size: 70px;
+	font-weight: 700;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #54c494;
+	border-radius: 50%;
+	margin: auto;
+}
+
+.benefit h5 {
+    color: #485a68;
+	margin-top: 15px;
+}
+
+.benefit p {
+	margin-top: 15px;
+}
+
+#benefitsImg {
+	width: 100%;
+	height: auto;
+    margin-top: 40px;
+}
+
+#benefitsImg img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+#servicesSection {
+}
+
+#servicesSection #serviceOverview {
+	padding: 30px 0 40px 0;
+}
+
+#serviceOverview .intro {
+	text-align: center;
+}
+
+#serviceOverview .service {
+	width: 100%;
+	height: auto;
+    margin-top: 15px;
+}
+
+.service:first-of-type {
+    padding-right: 15px;
+}
+
+.service:last-of-type {
+    padding-left: 15px;
+}
+
+.service .serviceContainer {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 244, 244, 0.6)), to(rgba(240, 244, 244, 0.6)));
+    width: 100%;
+    height: auto;
+}
+
+.service img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.service h5 {
+    color: #485a68;
+	margin: 30px 0 0 30px;
+}
+
+.service p {
+	padding: 0 30px 30px 30px;
+	margin: 15px 0 15px 0;
+}
+
+#servicesSection #serviceDetails {
+	background-color: #001011;
+	color: #ffffff !important;
+	padding: 30px 0 40px 0;
+}
+
+#serviceDetails h1 {
+	color: #ffffff;
+}
+
+#serviceDetails .detail {
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+
+.detail .detailChronology {
+	width: 75px;
+	height: 75px;
+	background-color: #454545;
+	color: #fffffc;
+	font-size: 35px;
+	font-weight: 700;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #454545;
+	border-radius: 50%;
+	margin: 30px auto 0 auto;
+}
+
+.detail h5 {
+	margin-top: 15px;
+}
+
+.detail p {
+	margin: 15px 0 30px 0;
+}
+
+#testimonialsSection {
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	padding: 30px 0 40px 0;
+}
+
+#testimonialsSection .testimonial {
+	width: 90%;
+	height: auto;
+	text-align: center;
+	margin: auto;
+}
+
+.testimonial img {
+	display: inline-block;
+	width: 196px;
+	height: 196px;
+    text-align: center;
+    line-height: 196px;
+}
+
+.testimonial div {
+	font-size: 23px;
+    color: #485a68;
+    text-align: center;
+	padding-top: 15px;
+}
+
+.testimonial h3 {
+    text-align: center;
+	padding-top: 18px;
+}
+
+.testimonial p {
+    text-align: center;
+    color: #485a68;
+	padding-top: 8px;
+}
+
+#footer {
+	background-color: #54c494;
+	color: #fffffc;
+	text-align: center;
+	padding: 70px 0 30px 0;
+}
+
+#footer h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+	text-transform: uppercase;
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+#footer #footerText {
+	line-height: 30px;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+#footer .btn:link,
+#footer .btn:visited {
+	background-color: #fffffc;
+	color: #54c494;
+	transition: color 0.2s linear, background 0.2s linear, border-color 0.2s linear, text-shadow 0.2s linear;
+}
+
+#footer .btn:hover,
+#footer .btn:active {
+	background-color: #f0f0ed;
+}
+
+#footer #copyRight {
+	font-size: 17px;
+	line-height: 17px;
+	margin-top: 40px;
+}
+
+
+/*-----------------------------------------------------*/
+/*------------------- CODE FOR APPOINTMENT FORM PAGE --*/
+/*-----------------------------------------------------*/
+
+#appointmentFormWrapper {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+}
+
+#appointmentFormWrapper video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 196, 148, 0.2)), to(rgba(84, 196, 148, 0.2))), url('background-image.png');
+    background-image: gradient(linear, left top, left bottom, from(rgba(84, 196, 148, 0.2)), to(rgba(84, 196, 148, 0.2))), url('background-image.png');
+	/* This is what makes the background image rescale based on the container's size */
+	background-size: cover;
+	z-index: 1;
+}
+
+#appointmentFormWrapper #overlay {
+	background-color: rgba(84, 196, 148, 0.2);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+
+#appointmentFormWrapper iframe {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	text-rendering: optimizeLegibility;
+	z-index: 2;
+}
+
+/*-----------------------------------------------------*/
+/*------------------- CODE FOR APPOINTMENT FORM PAGE --*/
+/*-----------------------------------------------------*/
